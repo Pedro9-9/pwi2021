@@ -1,0 +1,39 @@
+h1{
+    color: #f55;
+    font-size: 2rem;
+    font-family: geneva;
+}
+
+body{
+    background-color: #000000; 
+    background-image: url(https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png);
+}
+
+p {
+    color: #00ffff;
+    font-size: 1.2rem;
+}
+
+a:link {
+    color: #ff0000;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color:#00ff40;
+    background-color: transparent;
+
+  }
+  
+  a:hover {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #f6ff00;
+    background-color: transparent;
+    text-decoration: underline;
+  }

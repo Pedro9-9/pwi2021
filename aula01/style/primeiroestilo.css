@@ -1,0 +1,19 @@
+h1 {
+    color: #1eff00;
+    font-family: courier;
+}
+
+body {
+    background-color: #000000;
+    Background-image: url(https://www.w3.org/html/logo/downloads/HTML5_1Color_Black.png);
+    font-family: Verdana;
+}
+
+.novaCor {
+    color: #f50808;
+}
+
+p {
+    color: #1eff00;
+    font-size: 1.2rem;
+}
