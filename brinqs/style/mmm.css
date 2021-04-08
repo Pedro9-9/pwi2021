@@ -1,0 +1,13 @@
+body{
+    background-color: #0000;
+    background-image: url(https://th.bing.com/th/id/OIP.dGQWIJ-QdrIdSSqTK65BAQAAAA?pid=ImgDet&w=150&h=150&c=7);
+    background-size: 20%;
+    background-position: 10px;
+}
+
+h1{
+    color: #8b0000;
+    text-align: center;
+    font-size: 200px;
+
+}
