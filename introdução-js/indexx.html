@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/princ.css">
+    <title>JavaScript</title>
+
+</head>
+
+<body>
+    <input
+     type="text"
+     name="usuario"
+     id="loginusuario"
+     placeholder="usuario"
+     onkeyup="validarDigitação(this)">
+
+    <input 
+     type="text"
+     name="Senha"
+     id="loginSenha"
+     placeholder="Senha"
+     onkeyup="validarDigitação(this)">
+
+    <button class="back" onclick="exibir()">RUN!!</button>
+
+    
+
+
+
+    <div id="int-js-img "></div>
+
+    <span id="introducao-js-exibirdadoslogin"></span>
+    <script>
+
+
+        function exibir() {
+            console.log("OOOI");
+            alert("Ó o pikachu vindo aí")
+            let tagDiv = document.getElementById("int-js-img ")
+             tagDiv.innerHTML = '<img src="pokk.gif" alt="ft">';
+        }
+
+        function validarDigitação(tag) {
+            console.log(tag.value);
+            let tagSpan =
+            document.getElementById("introducao-js-exibirdadoslogin");
+            tagSpan.innerHTML = tag.value;
+        }
+
+    </script>
+
+</body>
+
+</html>
